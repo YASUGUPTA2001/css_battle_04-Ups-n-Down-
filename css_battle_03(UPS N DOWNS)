@@ -1,0 +1,39 @@
+<div id="box"</div>
+<div id="box2"</div>
+<div id="box3"</div>
+<style>
+  body {
+    background-color:#62306D;
+  }
+    #box {
+    width:100px;
+    height: 100px;
+    margin:150px;
+    margin-left:42px;
+    display:flex;
+    background: #F7EC7D;
+      border-bottom-right-radius:50px;
+         border-bottom-left-radius:50px;
+  }
+      #box2 {
+    width:100px;
+    height: 100px;
+    margin:-100px;
+    margin-left:100px;
+    display:flex;
+    background: #F7EC7D;
+         border-top-right-radius:60px;
+         border-top-left-radius:60px;
+  }
+  #box3 {
+    width:100px;
+    height: 100px;
+    margin-right:71px;
+    bottom:50px;
+    right:-21px;
+    position:absolute;
+    background: #F7EC7D;
+      border-bottom-right-radius:50px;
+         border-bottom-left-radius:50px;
+  }
+</style>
